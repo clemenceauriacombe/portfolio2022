@@ -1,0 +1,254 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #323232;
+}
+
+.navbar {
+  color: #FAFAFA;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .menu li {
+  margin-right: 30px;
+  line-height: 30px;
+}
+
+.navbar a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.btn {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  background-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #323232;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FF1D89;
+  color: #FAFAFA;
+  border: 1px solid #FAFAFA;
+}
+
+.btn2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FAFAFA;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #FF1D89;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #323232;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: transparent;
+  color: #FAFAFA;
+  border: 1px solid #FAFAFA;
+}
+
+#header .navbar {
+  background-color: #323232;
+  color: #FAFAFA;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#hero {
+  background-image: url("./hero.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  border: none;
+  background-size: cover;
+  position: relative;
+}
+
+#hero .wrapper {
+  display: block;
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 200px;
+}
+
+#hero .wrapper h1 {
+  font-family: 'Cardo', serif;
+  font-size: 144px;
+  font-weight: 400;
+  color: #FAFAFA;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #hero .wrapper h1 {
+    font-size: 70px;
+  }
+}
+
+#hero .wrapper h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+#apropos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#apropos .initiales {
+  width: 500px;
+  height: 500px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+#apropos .initiales img {
+  width: 100%;
+}
+
+#apropos .wrapper {
+  margin-left: 100px;
+  margin-top: 115px;
+  margin-bottom: 115px;
+  width: 40vw;
+}
+
+#apropos .wrapper h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FF1D89;
+  font-size: 46px;
+}
+
+#apropos .wrapper p {
+  font-family: 'Cardo', serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+}
+
+#competences {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+#competences .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#competences .wrapper .item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-right: 1px solid #FF1D89;
+  padding: 30px;
+  margin: 30px;
+  padding-right: 75px;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#competences .wrapper .item .logos {
+  width: 75px;
+  height: auto;
+  padding-top: 30px;
+}
+
+#competences .wrapper h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#projets {
+  background-color: #FFF4F9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#projets .wrapper {
+  margin-left: 100px;
+  margin-top: 115px;
+  margin-bottom: 115px;
+  width: 60vw;
+}
+
+#projets .wrapper h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #323232;
+  font-size: 46px;
+}
+
+#projets .wrapper p {
+  font-family: 'Cardo', serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer .textfooter {
+  font-size: 20px;
+  height: 40px;
+  background-color: #323232;
+  color: #FAFAFA;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+}
+
+#footer .textfooter a {
+  color: #FAFAFA;
+}
+/*# sourceMappingURL=style.css.map */
